@@ -1,5 +1,4 @@
 import bcrypt from 'bcryptjs'
-import { body, validationResult } from 'express-validator'
 import User from '../models/user.model.js'
 import { generateToken } from '../lib/utils.js'
 import express from 'express'

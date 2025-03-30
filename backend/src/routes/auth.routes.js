@@ -1,6 +1,5 @@
 import express from 'express'
 import { checkAuth, login, logout, signup, updateProfile } from '../controllers/auth.controller.js'
-import { body } from 'express-validator'
 import { protectRoute } from '../middlewares/auth.middleware.js'
 
 const router = express.Router()
